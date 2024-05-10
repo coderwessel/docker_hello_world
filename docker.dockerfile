@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 ENV FLASK_DEBUG=1
 EXPOSE 5000
 
-CMD ["flask_app","run","--host=0.0.0.0"]
+CMD ["flask_app","run","--host=127.0.0.1"]
